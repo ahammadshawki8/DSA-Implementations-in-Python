@@ -1,0 +1,8 @@
+Here I have used modularity several times to make a connectivity between different modules.
+It is also helpful to make my code DRY.
+But a problem has occured.
+Owing to encapsulation, I wont be able to import several classes in my different modules.
+So the code may crash.
+But I have to remember that using encapsulation in this type of programme is very much necessary.
+Though I can work with those codes if I manually copy the encapsulated classes in one module.
+I will do that in another folder if I really need to.

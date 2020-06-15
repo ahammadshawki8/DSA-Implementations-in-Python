@@ -1,7 +1,5 @@
-# Creating a exception specially for stacks
-class Empty(Exception):
-    pass
-    
+from empty_exception import *
+
 # Stack class
 class ArrayStack:
     """LIFO Stack implementation using a Python list as underlying storage."""

@@ -1,6 +1,4 @@
-# Creating a exception specially for queues
-class Empty(Exception):
-    pass
+from empty_exception import *
     
 # Circular Queue class
 class ArrayQueue():
