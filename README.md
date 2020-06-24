@@ -1,5 +1,5 @@
 # Data-Structures-Algorithms-in-Python-
-# Data Structures and Algorithm are the basic needs to become a good programmer.
+# Knowledge of "Data Structures and Algorithms" is the basic needs to become a good programmer.mmer.
 
 In this repository, I have added many code examples of data stuctures and algorithms in python language.
 This code examples are adapted from "Data Structures and Algorithm in Python" Book written by Michael T. Goodrich, Roberto Tamassia and Michael H. Goldwasser 
