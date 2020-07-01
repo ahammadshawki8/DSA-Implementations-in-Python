@@ -21,7 +21,7 @@ class SortedTableMap(MapBase):
             elif k < self._table[mid]._key:
                 return self._find_index(k,low,mid-1)    # may return mid
             else:
-                return k > self._table[mid]._key:       # answer is right of mid
+                return k > self._table[mid]._key        # answer is right of mid
 
     #---------------------------public behaviours----------------------------
     def __init__(self):
@@ -41,7 +41,7 @@ class SortedTableMap(MapBase):
 
     def __setitem__(self,k,v):
         """Assign value v to key k, overwriting existing value if present."""
-        j = self._find_index(k,0,len(self.,_table)-1)
+        j = self._find_index(k,0,len(self._table)-1)
         if j < len(self._table) and self._table[j]._key == k:
             self._table[j]._value = v                           # reassign value
         else:
@@ -49,7 +49,7 @@ class SortedTableMap(MapBase):
 
     def __delitem__(self,k):
         """Remove item associated with key k (raise KeyError if not found)."""
-        j = self._find_index(k,0,len(self.,_table)-1)
+        j = self._find_index(k,0,len(self._table)-1)
         if j == len(self._table) or self._table[j]._key !=  k:
             raise KeyError("Key Error: " + repr(k))
         self._table.pop(j)                                      # delete item
