@@ -1,0 +1,2 @@
+For "OOP" chapter, see the repository about "Object Oriented Programming"
+I have discussed all the basics and beyond basics cases about Object Oriented Programming in Python there.

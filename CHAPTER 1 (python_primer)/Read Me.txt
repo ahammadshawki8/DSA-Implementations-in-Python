@@ -1,0 +1,2 @@
+For "Python Primer" chapter, please see the "Python Basics" repository.
+All basics knowledge of Python can be found there. 
