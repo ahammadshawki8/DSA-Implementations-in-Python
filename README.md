@@ -5,6 +5,9 @@ This code examples are adapted from "Data Structures and Algorithm in Python" Bo
 and also many exmples are adapted from "Cracking the Coding Interview" written by Gayle Laakmann McDowell 
 and "Introduction to Algorithms" written by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein.
 
+Note that: In this repository, I haven't disscussed the codes like other repositories. So coders will have to read the books below and at the same time folow the code implementations in Python from this repository.
+
+
 # Link for those Books: 
 
 "Data Structures and Algorithm in Python" --> https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275
