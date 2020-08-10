@@ -19,7 +19,7 @@ Note that: In this repository, I haven't disscussed the codes like other reposit
 You can also learn about DSA in this following youtube channel:
 
 1. HackerRank --> https://www.youtube.com/channel/UCOf7UPMHBjAavgD0Qw5q5ww
-2. CS Dojo --> https://www.youtube.com/channel/UCxX9wt5FWQUAAz4UrysqK9A 
+2. CS Dojo (@ykdojo) --> https://www.youtube.com/channel/UCxX9wt5FWQUAAz4UrysqK9A 
 
 # _License_
 Details can be found in [LICENSE](https://github.com/ahammadshawki8/Data-Structures-Algorithms-in-Python/blob/master/LICENSE)
