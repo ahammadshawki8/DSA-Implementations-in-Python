@@ -1,6 +1,6 @@
 ![Poster](https://github.com/ahammadshawki8/Data-Structures-Algorithms-in-Python/blob/master/data_structures.jpg)
 
-# Knowledge of "Data Structures and Algorithms" is one of the basic needs to become a good programmer.
+# _Knowledge of "Data Structures and Algorithms" is one of the basic needs to become a good programmer._
 
 In this repository, I have added many code examples of data stuctures and algorithms in python language.
 This code examples are adapted from "Data Structures and Algorithm in Python" Book written by Michael T. Goodrich, Roberto Tamassia and Michael H. Goldwasser 
@@ -10,13 +10,13 @@ and "Introduction to Algorithms" written by Thomas H. Cormen, Charles E. Leisers
 Note that: In this repository, I haven't disscussed the codes like other repositories. So coders will have to read the books below and at the same time folow the code implementations in Python from this repository.
 
 
-# Link for those Books: 
+# _Link for those Books: _
 
-"Data Structures and Algorithm in Python" --> https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275
-"Cracking the Coding Interview" --> https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850
-"Introduction to Algorithms" --> https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844
+1. "Data Structures and Algorithm in Python" --> https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275
+2. "Cracking the Coding Interview" --> https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850
+3. "Introduction to Algorithms" --> https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844
 
 You can also learn about DSA in this following youtube channel:
 
-HackerRank --> https://www.youtube.com/channel/UCOf7UPMHBjAavgD0Qw5q5ww
-CS Dojo --> https://www.youtube.com/channel/UCxX9wt5FWQUAAz4UrysqK9A 
+1. HackerRank --> https://www.youtube.com/channel/UCOf7UPMHBjAavgD0Qw5q5ww
+2. CS Dojo --> https://www.youtube.com/channel/UCxX9wt5FWQUAAz4UrysqK9A 
