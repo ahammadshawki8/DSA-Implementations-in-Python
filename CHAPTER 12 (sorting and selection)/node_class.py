@@ -1,5 +1,5 @@
 # simple implementation of Node class.
-class _Node:
+class Node:
     """Lightweight, non-public class for storing a singly linked list"""
     __slots__ = "_element", "_next"         # streamline memory usage.
 

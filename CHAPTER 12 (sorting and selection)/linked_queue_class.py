@@ -44,7 +44,7 @@ class LinkedQueue:
 
     def enqueue(self,e):
         """Add an element to the back of the queue."""
-        newest = self._Node(e,None)     # node will be new tail node
+        newest = self.Node(e,None)     # node will be new tail node
         if self.is_empty():             # special case: previously empty
             self._head = newest
         else:
