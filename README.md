@@ -1,4 +1,4 @@
-![Poster](https://github.com/ahammadshawki8/Data-Structures-Algorithms-in-Python/blob/master/data_structures.jpg)
+![Poster](https://github.com/ahammadshawki8/DSA-Implementations-in-Python/blob/master/data_structures.jpg)
 
 # _Knowledge of "Data Structures and Algorithms" is one of the basic needs to become a good programmer._
 
@@ -22,4 +22,4 @@ You can also learn about DSA in this following youtube channel:
 2. CS Dojo (@ykdojo) --> https://www.youtube.com/channel/UCxX9wt5FWQUAAz4UrysqK9A 
 
 # _License_
-Details can be found in [LICENSE](https://github.com/ahammadshawki8/Data-Structures-Algorithms-in-Python/blob/master/LICENSE)
+Details can be found in [LICENSE](LICENSE)
