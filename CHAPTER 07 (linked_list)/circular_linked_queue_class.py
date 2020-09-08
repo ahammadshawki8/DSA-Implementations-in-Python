@@ -1,5 +1,3 @@
-from empty_exception import *
-from node_class import *
 
 # Creating Queue class with circular linked list
 class CircularQueue:
@@ -58,3 +56,18 @@ class CircularQueue:
         """Rotate front element to the back of the queue."""
         if self._size > 0:
             self._tail = self._tail._next  # old head becomes new tail
+
+
+# Extra Utilities
+# creating empty class
+class Empty(Exception):
+    pass
+
+# simple implementation of Node class.
+class _Node:
+    """Lightweight, non-public class for storing a singly linked list"""
+    __slots__ = "_element", "_next"         # streamline memory usage.
+
+    def __init__(self,element,next):
+        self._element = element             # reference to user's element
+        self._next = next                   # reference to next node

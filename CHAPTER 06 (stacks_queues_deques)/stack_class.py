@@ -1,5 +1,3 @@
-from empty_exception import *
-
 # Stack class
 class ArrayStack:
     """LIFO Stack implementation using a Python list as underlying storage."""
@@ -46,3 +44,8 @@ class ArrayStack:
         print(">")
         return "REPRESENTATION OF STACK"
                  
+
+# Extra Utilities
+# creating empty class
+class Empty(Exception):
+    pass

@@ -1,6 +1,4 @@
-from empty_exception import *
-    
-# Circular Queue class
+ # Circular Queue class
 class ArrayQueue():
     """FIFO queue implementation using a Python list as underluing storage."""
     DEFAULT_CAPACITY = 10
@@ -72,3 +70,8 @@ class ArrayQueue():
         print(">")
         return "REPRESENTATION OF QUEUE"
         
+
+# Extra Utilities
+# creating empty class
+class Empty(Exception):
+    pass

@@ -1,6 +1,3 @@
-from empty_exception import *
-from node_class import *
-
 # creating linked stack class
 class LinkedStack:
     """LIFO Stack implementation using a singly linked list for storage."""
@@ -44,4 +41,21 @@ class LinkedStack:
         self._size -= 1
         return answer
     
-    
+ 
+
+
+
+# Extra Utilities
+
+# creating empty class
+class Empty(Exception):
+    pass
+
+# simple implementation of Node class.
+class _Node:
+    """Lightweight, non-public class for storing a singly linked list"""
+    __slots__ = "_element", "_next"         # streamline memory usage.
+
+    def __init__(self,element,next):
+        self._element = element             # reference to user's element
+        self._next = next                   # reference to next node
