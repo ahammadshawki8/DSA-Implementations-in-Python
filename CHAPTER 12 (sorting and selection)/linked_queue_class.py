@@ -1,5 +1,3 @@
-from empty_exception import *
-from node_class import *
 
 # creating linked queue class
 class LinkedQueue:
@@ -44,10 +42,27 @@ class LinkedQueue:
 
     def enqueue(self,e):
         """Add an element to the back of the queue."""
-        newest = self.Node(e,None)     # node will be new tail node
+        newest = self._Node(e,None)     # node will be new tail node
         if self.is_empty():             # special case: previously empty
             self._head = newest
         else:
             self._tail._next = newest
         self.tail = newest              # update reference to tail node
         self._size += 1
+
+
+
+# Extra Utilities
+
+# creating empty class
+class Empty(Exception):
+    pass
+
+# simple implementation of Node class.
+class _Node:
+    """Lightweight, non-public class for storing a singly linked list"""
+    __slots__ = "_element", "_next"         # streamline memory usage.
+
+    def __init__(self,element,next):
+        self._element = element             # reference to user's element
+        self._next = next                   # reference to next node
