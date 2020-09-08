@@ -1,4 +1,4 @@
-from random import radint, seed
+from random import randint, seed
 
 class SkipList:
     
@@ -21,7 +21,7 @@ class SkipList:
             update = self.updateList(elem)
         if len(update) > 0:
             item = update[0].next[0]
-            if item != None and item.elem = elem:
+            if item != None and item.elem == elem:
                 return item
         return None
 
@@ -73,6 +73,6 @@ class SkipList:
         for i in range(len(self.head.next)-1, -1, -1):
             x = self.head
             while x.next[i] != None:
-                print x.next[i].elem,
+                print(x.next[i].elem),
                 x = x.next[i]
-            print ''
+            print('')

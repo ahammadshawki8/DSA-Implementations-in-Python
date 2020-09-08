@@ -1,3 +1,4 @@
+filepath = input("Enter the file path\n")
 freq = {}
 for piece in open(filepath).read().lower().split(): # we have to define the path of the file
     # only consider alphabeticcal character within this piece
