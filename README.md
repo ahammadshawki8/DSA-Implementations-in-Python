@@ -7,7 +7,13 @@ This code examples are adapted from "Data Structures and Algorithm in Python" Bo
 and also many exmples are adapted from "Cracking the Coding Interview" written by Gayle Laakmann McDowell 
 and "Introduction to Algorithms" written by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein.
 
-Note that: In this repository, I haven't disscussed the codes like other repositories. So coders will have to read the books below and at the same time folow the code implementations in Python from this repository.
+Note1: Modularity have been used in this repository. Again, in most of the modules, I have used encapsulation (underscored method & attributes). So though usage of modularity, the modules aren't connected to each other. What you have to do is that, while using the codes, if you find some code have been imported from other module-
+
+1. Go to that module
+2. Copy all the codes (ctrl + A + C)
+3. Paste them (ctrl + V) to the front of the current working module.
+
+Note2: In this repository, I haven't disscussed the codes like other repositories. So coders will have to read the books below and at the same time follow the code implementations in Python from this repository.
 
 
 # _Link for those Books:_
