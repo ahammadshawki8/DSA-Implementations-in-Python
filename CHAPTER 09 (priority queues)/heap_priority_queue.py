@@ -1,31 +1,6 @@
-# Extra Utilities
-# creating empty class
-class Empty(Exception):
-    pass
+from priority_queue_base_class import *
+from empty_exception import *
 
-class PriorityQueueBase:
-    """Abstract base class for a priority queue."""
-    class _Item:
-        """Lightweight composite to store priority queue items."""
-        __slots__="_key","_value"
-
-        def __init__(self,k,v):
-            self._key = k
-            self._value = v
-
-        def __lt__(self,other):
-            return self._key < other._key           # compare items based on their keys
-
-    def is_empty(self):                 # concrete method assuming abstract len
-        """Return True if the priority queue is empty"""
-        return len(self) == 0
-
-
-
-
-
-
-# Main Code
 class HeapPriorityQueue(PriorityQueueBase): # base class defines _Item
     """A min-oriented priority queue implemented with a binary heap."""
     #---------------------------non-public behaviours-----------------------------

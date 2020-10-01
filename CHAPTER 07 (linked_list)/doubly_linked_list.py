@@ -1,3 +1,5 @@
+from doubly_node_class import *
+
 class _DoublyLinkedBase:
     """A base class providing a doubly linked list representation."""
 
@@ -36,15 +38,3 @@ class _DoublyLinkedBase:
         node._prev = node._next = node._element = None  # deprecate node for garbage collection
         return element                                  # return deleted element
         
-
-# Extra utilities
-
-# simple implementation of Node class.
-class _Node:
-    """Lightweight, non-public class for storing a doubly linked list"""
-    __slots__ = "_element", "_prev", "_next"    # streamline memory usage.
-
-    def __init__(self,element,prev,next):
-        self._element = element                 # reference to user's element
-        self._prev = prev                       # reference to previous node
-        self._next = next                       # reference to next node
