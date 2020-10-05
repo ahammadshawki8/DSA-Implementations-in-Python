@@ -39,15 +39,3 @@ def merge_sort(S):
 
     return S
 
-
-if __name__ == "__main__":
-    box = LinkedQueue()
-    box.enqueue(23)
-    box.enqueue(1)
-    box.enqueue(456)
-    box.enqueue(22)
-    box.enqueue(0)
-    box.enqueue(34)
-    box.enqueue(34)
-    box.enqueue(11)
-    print(merge_sort(Box))

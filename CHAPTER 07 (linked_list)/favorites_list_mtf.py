@@ -17,7 +17,7 @@ class FavouritesListMTF(FavouritesList):
             raise ValueError("Illegal value for k")
 
         # we begin to make a copy of original list
-        temp = PositionList()
+        temp = PositionalList()
         for item in self._data:             # positional list supports iteration
             temp.add_last(item)
 

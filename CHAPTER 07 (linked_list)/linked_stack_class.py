@@ -21,7 +21,7 @@ class LinkedStack:
     def push(self,e):
         """Add element e to the top of the stack."""
         self._head = self._Node(e,self._head)
-        self.size +=1
+        self._size +=1
         
     def top(self,e):
         """Return (but do not remove) the element at the top of the stack.

@@ -9,6 +9,6 @@ def matrix_chain(d):
 	N = [[0] * n for i in range(n)] # initialize n-by-n result to zero
 	for b in range(1,n):			# number of products in subchain
 		for i in range(n-b):		# start of subchain
-		j = i + b 					# end of subchain
-		N[i][j] = min(N[i][j] + N[k+1][j] + d[i]*d[k+1]*d[j+1] for k in range(i,j))
+			j = i + b 					# end of subchain
+			N[i][j] = min(N[i][j] + N[k+1][j] + d[i]*d[k+1]*d[j+1] for k in range(i,j))
 	return N

@@ -26,12 +26,3 @@ def inplace_quick_sort(S,a,b):
     # make recursive calls
     inplace_quick_Sort(S, a, left-1)
     inplace_quick_sort(S, left+1, b)
-
-if __name__ == "__main__":
-    S = LinkedQueue()
-    S.enqueue(20)
-    S.enqueue(1)
-    S.enqueue(0)
-    S.enqueue(2)
-    S.enqueue(19)
-    inplace_quick_sort(S,0,4)

@@ -1,4 +1,5 @@
 freq = {}
+filepath = input("Enter a path name: ")
 for piece in open(filepath).read().lower().split(): # we have to define the path of the file
     # only consider alphabeticcal character within this piece
     word = "".join(c for c in piece if c.isalpha())

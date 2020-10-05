@@ -5,7 +5,7 @@ def pq_sort(C): # assuming C is a positional_list
     """Sort a collection of elements stored in a positional list."""
     n = len(C)
     P = HeapPriorityQueue()
-    for j in range(n)):
+    for j in range(n):
         element = C.delete(C.first())
         P.add(element,element)          # use element as keu and value
     for j in range(n):

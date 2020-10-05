@@ -1,5 +1,5 @@
-from eular_tour_class import *
-class BinaryEularTour(EularTour):
+from euler_tour_class import *
+class BinaryEulerTour(EulerTour):
     """Abstract base class for performing Eular tour of a binary tree.
 
     This version includes an additional _hook_invisit that is called after the tour
@@ -23,4 +23,4 @@ class BinaryEularTour(EularTour):
 
     def _hook_invisit(self,p,d,path):       # can be overriden
         pass
-    return answer
+        return answer

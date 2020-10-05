@@ -1,6 +1,6 @@
-from binary_eular_tour import *
+from binary_euler_tour import *
 
-class BinaryLayout(BinaryEularTour):
+class BinaryLayout(BinaryEulerTour):
     """Class for computing (x,y) coordinates for each node of a binary tree."""
     def __init__(self,tree):
         super().__init__(tree)          # must call the parent constructor

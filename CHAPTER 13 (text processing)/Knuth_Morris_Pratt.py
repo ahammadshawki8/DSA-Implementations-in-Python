@@ -35,8 +35,3 @@ def compute_kmp_fail(P):
         else:
             j += 1          # no match found starting at j
     return fail
-
-
-if __name__ == "__main__":
-    print(find_kmp("amarachejol","ache"))
-    print(find_kmp("helloworld!thisisme","me"))

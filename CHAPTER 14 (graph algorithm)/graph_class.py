@@ -15,7 +15,7 @@ class Graph:
 			return self._element
 
 		def __hash__(self):			# will allow vertex to be a map/set key
-		return hash(id(self))
+			return hash(id(self))
 
 
 	#------------------------------nested edge class----------------------

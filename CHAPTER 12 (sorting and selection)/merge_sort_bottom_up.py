@@ -32,5 +32,7 @@ def merge_sort(S):
     return S
 
 
+
+# testing
 if __name__ == "__main__":
     print(merge_sort([23,1,456,22,0,34,34,45,67,2,4,3,11]))

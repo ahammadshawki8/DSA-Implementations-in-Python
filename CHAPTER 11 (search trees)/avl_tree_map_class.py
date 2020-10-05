@@ -5,15 +5,15 @@ class AVLTreeMap(TreeMap):
     #-------------------nested _Node class---------------------------------------
     __slots__ = "_height"           # additional data member to store height
 
-        def __init__(self,element,parent = None,left=None,right=None):
-            super().__init__(element,parent,left,right)
-            self._height = 0        # will be recomputed during balancing
+    def __init__(self,element,parent = None,left=None,right=None):
+        super().__init__(element,parent,left,right)
+        self._height = 0        # will be recomputed during balancing
 
-        def left_height(self):
-            return self._left._height if self._left is not None else 0
+    def left_height(self):
+        return self._left._height if self._left is not None else 0
 
-        def right_height(self):
-            return self._right._height if self._right is not None else 0
+    def right_height(self):
+        return self._right._height if self._right is not None else 0
 
     #--------------------------positional based utility methods----------------
     def _recompute_hieght(self,p):

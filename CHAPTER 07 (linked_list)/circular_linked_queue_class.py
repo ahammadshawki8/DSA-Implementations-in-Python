@@ -40,7 +40,7 @@ class CircularQueue:
             self._tail = None               # queue becomes empty
         else:
             self._tail._next=oldhead._next  # bypass the old head
-        self.size -= 1
+        self._size -= 1
         return oldhead
 
     def enqueue(self,e):

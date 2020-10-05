@@ -1,6 +1,6 @@
 from linked_binary_tree import *
 from collections import Counter
-from SortedPriorityQueue import *
+from sorted_priority_queue import *
 
 def huffman(string):
 	f = Counter()
@@ -26,7 +26,3 @@ def huffman(string):
 	(f,T) = Q.remove_min()
 
 	return T
-
-
-
-huffman("heronumberzero")
