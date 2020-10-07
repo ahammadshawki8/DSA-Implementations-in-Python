@@ -1,4 +1,5 @@
 from graph_class import *
+from adaptable_heap_priority_queue import *
 
 def shortest_path_lengths(g, src):
 	"""Compute shortest-path distances fom src to reachable vertices of g.
